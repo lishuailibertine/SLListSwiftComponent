@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8240C60623C6D9B400CC27B1 /* LTListComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C60523C6D9B400CC27B1 /* LTListComponentProtocol.swift */; };
+		8240C60823C701F200CC27B1 /* LTListAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C60723C701F200CC27B1 /* LTListAgency.swift */; };
+		8240C60A23C7238C00CC27B1 /* LTListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C60923C7238C00CC27B1 /* LTListBaseClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +43,15 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6942FD86C6C5D7CD4B54D3D5 /* Pods-SLListSwiftComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Tests/Pods-SLListSwiftComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6A85C6135F0B7BFF25A2C8D6 /* Pods-SLListSwiftComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Example/Pods-SLListSwiftComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71B2E5C026AED43CFE52FD7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71B2E5C026AED43CFE52FD7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		79DAB14DB914D105012B4E8B /* Pods-SLListSwiftComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Tests/Pods-SLListSwiftComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A37935404790994517024E0 /* Pods_SLListSwiftComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLListSwiftComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B981472B1CE6CF0C3FC009D /* Pods_SLListSwiftComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLListSwiftComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C46AF6049E7F40BEF0C2D79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D12937C706FBDD2DE9D7C459 /* SLListSwiftComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SLListSwiftComponent.podspec; path = ../SLListSwiftComponent.podspec; sourceTree = "<group>"; };
+		8240C60523C6D9B400CC27B1 /* LTListComponentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTListComponentProtocol.swift; sourceTree = "<group>"; };
+		8240C60723C701F200CC27B1 /* LTListAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTListAgency.swift; sourceTree = "<group>"; };
+		8240C60923C7238C00CC27B1 /* LTListBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTListBaseClass.swift; sourceTree = "<group>"; };
+		9C46AF6049E7F40BEF0C2D79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D12937C706FBDD2DE9D7C459 /* SLListSwiftComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SLListSwiftComponent.podspec; path = ../SLListSwiftComponent.podspec; sourceTree = "<group>"; };
 		E6D23B293239E3E976F35779 /* Pods-SLListSwiftComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Example/Pods-SLListSwiftComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +99,9 @@
 		607FACD21AFB9204008FA782 /* Example for SLListSwiftComponent */ = {
 			isa = PBXGroup;
 			children = (
+				8240C60523C6D9B400CC27B1 /* LTListComponentProtocol.swift */,
+				8240C60923C7238C00CC27B1 /* LTListBaseClass.swift */,
+				8240C60723C701F200CC27B1 /* LTListAgency.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,7 +156,6 @@
 				79DAB14DB914D105012B4E8B /* Pods-SLListSwiftComponent_Tests.debug.xcconfig */,
 				6942FD86C6C5D7CD4B54D3D5 /* Pods-SLListSwiftComponent_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +236,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -350,8 +359,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8240C60823C701F200CC27B1 /* LTListAgency.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8240C60A23C7238C00CC27B1 /* LTListBaseClass.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				8240C60623C6D9B400CC27B1 /* LTListComponentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
