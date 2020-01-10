@@ -10,25 +10,25 @@ import Foundation
 import UIKit
 
 class LTListBaseRowClass : NSObject,LTListRowProtocol {
-    var cellReusable: NSString = ""
-    var rowHeight: NSNumber = 0.0
+    var cellReusable: NSString?
+    var rowHeight: NSNumber?
 }
 class LTListBaseSectionClass : NSObject,LTListSectionProtocol {
-    var sectionHeaderView: UIView = UIView()
+    var sectionHeaderView: UIView?
     
-    var sectionFooterView: UIView = UIView()
+    var sectionFooterView: UIView?
     
-    var viewHeaderClass: NSString = ""
+    var viewHeaderClass: NSString?
     
-    var nibHeaderName: NSString = ""
+    var nibHeaderName: NSString?
     
-    var viewFooterClass: NSString = ""
+    var viewFooterClass: NSString?
     
-    var nibFooterName: NSString = ""
+    var nibFooterName: NSString?
     
-    var sectionHeaderHeight: NSNumber = 0.0
+    var sectionHeaderHeight: NSNumber?
     
-    var sectionFooterHeight: NSNumber = 0.0
+    var sectionFooterHeight: NSNumber?
     
     var rowArray: NSMutableArray = NSMutableArray()
     
@@ -36,15 +36,71 @@ class LTListBaseSectionClass : NSObject,LTListSectionProtocol {
 }
 class LTTableRowModel : NSObject,LTTableRowModelProtocol{
     
-    var configCellReusable: (UITableView, NSIndexPath) -> NSString = {(UITableView, NSIndexPath) -> NSString in return ""}
+    var configCellReusable: ((UITableView, NSIndexPath) -> NSString)?
     
-    var configCellData: (UITableView, LTListBaseCellProtocol, LTListRowProtocol) -> Void = {(UITableView, LTListBaseCellProtocol,LTListRowProtocol) -> Void in}
+    var configCellData: ((UITableView, LTListBaseCellProtocol, LTListRowProtocol?) -> Void)?
     
-    var didSelectRowAtIndexPath: (UITableView, NSIndexPath, LTListRowProtocol) -> Void = {(UITableView, LTListBaseCellProtocol,LTListRowProtocol) -> Void in}
+    var didSelectRowAtIndexPath: ((UITableView, NSIndexPath, LTListRowProtocol?) -> Void)?
     
-    var configRowHeight: (UITableView, NSIndexPath) -> CGFloat = {(UITableView, NSIndexPath) -> CGFloat in return 0.0}
+    var configRowHeight: ((UITableView, NSIndexPath) -> CGFloat)?
     
-    var rowData: LTListRowProtocol = LTListBaseRowClass()
+    var rowData: LTListRowProtocol?
+
+}
+class LTTableSectionModel : NSObject,LTTableSectionModeProtocol{
+    var configHeaderHeight: ((UITableView, NSInteger) -> CGFloat)?
+    
+    var configFooterHeight: ((UITableView, NSInteger) -> CGFloat)?
+    
+    var configHeaderView: ((UITableView, NSInteger) -> LTListBaseViewProtocol)?
+    
+    var configFooterView: ((UITableView, NSInteger) -> LTListBaseViewProtocol)?
+    
+    var configHeaderData: ((UITableView, NSInteger, LTListBaseViewProtocol, LTListSectionProtocol?) -> Void)?
+    
+    var configFooterData: ((UITableView, NSInteger, LTListBaseViewProtocol, LTListSectionProtocol?) -> Void)?
+    
+    var headerData: LTListSectionProtocol?
+    
+    var footerData: LTListSectionProtocol?
+    
+    var rowDataArray: NSMutableArray = NSMutableArray()
     
     
+}
+class LTListViewModel : NSObject,LTListViewModelProtocol{
+    var dataArray: NSMutableArray = NSMutableArray()
+    
+    var scrollViewWillBeginDragging: ((UIScrollView) -> Void)?
+    
+    var scrollViewDidEndDragging: ((UIScrollView, Bool) -> Void)?
+}
+
+@objc class LTListBaseViewClass : UIView,LTListBaseViewProtocol{
+    func fillData(data: Any?) {
+        
+    }
+    func createViewWithClass(className: Any,nibName: NSString? ) -> LTListBaseViewClass? {
+        return nil
+    }
+    func getNibViewWithClass(className: Any,nibName: NSString?) -> UIView? {
+        if nibName == nil {
+            return nil
+        }
+        let contentView: UIView? = nil
+        let xibBundle: Bundle = Bundle.main
+        let nibs: [Any]? = xibBundle.loadNibNamed(nibName == nil ? "\(self)": nibName! as String, owner: self, options: nil)
+        nibs?.forEach({ (nib) in
+            if nib == className{
+                
+            }
+        })
+        return contentView as? LTListBaseViewClass
+    }
+}
+class LTListBaseCellClass : UITableViewCell,LTListBaseCellProtocol{
+    
+    func fillDataWithModel(data: LTListRowProtocol?) {
+        
+    }
 }
