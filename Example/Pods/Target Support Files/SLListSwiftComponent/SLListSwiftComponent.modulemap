@@ -1,4 +1,4 @@
-framework module SLListSwiftComponent {
+module SLListSwiftComponent {
   umbrella header "SLListSwiftComponent-umbrella.h"
 
   export *

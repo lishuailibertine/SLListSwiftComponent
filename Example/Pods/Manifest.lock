@@ -11,7 +11,7 @@ DEPENDENCIES:
   - SLListSwiftComponent (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -22,6 +22,6 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   SLListSwiftComponent: c773c621478a93527e4a2a650eb9f9a2163da20f
 
-PODFILE CHECKSUM: 0d186a07f18fa6e79f32c3b2e94d5e89800049c1
+PODFILE CHECKSUM: 5b0545a51b7749c29da6aee6c38f468c701a8ff7
 
 COCOAPODS: 1.8.0.beta.1

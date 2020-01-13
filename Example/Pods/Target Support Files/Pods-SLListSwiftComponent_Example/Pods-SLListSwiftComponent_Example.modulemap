@@ -1,4 +1,4 @@
-framework module Pods_SLListSwiftComponent_Example {
+module Pods_SLListSwiftComponent_Example {
   umbrella header "Pods-SLListSwiftComponent_Example-umbrella.h"
 
   export *

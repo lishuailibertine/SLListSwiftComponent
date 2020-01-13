@@ -9,28 +9,28 @@
 import Foundation
 import UIKit
 
-class LTListAgency: NSObject,UITableViewDataSource,UITableViewDelegate {
+open class LTListAgency: NSObject,UITableViewDataSource,UITableViewDelegate {
     
-    var tableDataModel: LTListViewModelProtocol?
+    open var tableDataModel: LTListViewModelProtocol?
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    open func numberOfSections(in tableView: UITableView) -> Int {
         return self.tableDataModel?.dataArray.count ?? 0;
     }
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    open func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[section] as? LTTableSectionModeProtocol
         if (sectionModel?.configHeaderHeight) != nil {
            return (sectionModel?.configHeaderHeight)!(tableView,section as NSInteger)
         }
         return 0;
     }
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    open func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[section] as? LTTableSectionModeProtocol
         if (sectionModel?.configHeaderHeight) != nil {
            return (sectionModel?.configFooterHeight)!(tableView,section as NSInteger)
         }
         return 0;
     }
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    open func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[section] as? LTTableSectionModeProtocol
         var sectionView: LTListBaseViewProtocol?
         if  sectionModel?.configHeaderView != nil{
@@ -41,7 +41,7 @@ class LTListAgency: NSObject,UITableViewDataSource,UITableViewDelegate {
         }
         return sectionView as? UIView
     }
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+   open  func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[section] as? LTTableSectionModeProtocol
         var sectionView: LTListBaseViewProtocol?
         if  sectionModel?.configFooterView != nil {
@@ -52,12 +52,12 @@ class LTListAgency: NSObject,UITableViewDataSource,UITableViewDelegate {
         }
         return sectionView as? UIView
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[section] as? LTTableSectionModeProtocol
         return sectionModel?.rowDataArray.count ?? 0
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let sectionModel: LTTableSectionModeProtocol = self.tableDataModel?.dataArray[indexPath.section] as! LTTableSectionModeProtocol
         let rowModel: LTTableRowModelProtocol = sectionModel.rowDataArray[indexPath.row] as! LTTableRowModelProtocol
         var reusable: NSString = ""
@@ -71,14 +71,14 @@ class LTListAgency: NSObject,UITableViewDataSource,UITableViewDelegate {
         
         return cell as! UITableViewCell
     }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[indexPath.section] as? LTTableSectionModeProtocol
         let rowModel: LTTableRowModelProtocol? = sectionModel?.rowDataArray[indexPath.row] as? LTTableRowModelProtocol
         if (rowModel?.didSelectRowAtIndexPath) != nil {
             rowModel?.didSelectRowAtIndexPath!(tableView, indexPath as NSIndexPath,rowModel?.rowData)
         }
     }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    open func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let sectionModel: LTTableSectionModeProtocol? = self.tableDataModel?.dataArray[indexPath.section] as? LTTableSectionModeProtocol
         let rowModel: LTTableRowModelProtocol? = sectionModel?.rowDataArray[indexPath.row] as? LTTableRowModelProtocol
         if (rowModel?.configRowHeight) != nil {
@@ -86,12 +86,12 @@ class LTListAgency: NSObject,UITableViewDataSource,UITableViewDelegate {
         }
         return 0
     }
-    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+    open func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         if (self.tableDataModel?.scrollViewWillBeginDragging) != nil {
             self.tableDataModel?.scrollViewWillBeginDragging!(scrollView);
         }
     }
-    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+    open func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         if (self.tableDataModel?.scrollViewDidEndDragging) != nil {
             self.tableDataModel?.scrollViewDidEndDragging!(scrollView,decelerate);
         }

@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		335E31D9EC282DB54F7A7E13 /* Pods_SLListSwiftComponent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A37935404790994517024E0 /* Pods_SLListSwiftComponent_Example.framework */; };
-		377CEF0AF5C47AA5CE431215 /* Pods_SLListSwiftComponent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B981472B1CE6CF0C3FC009D /* Pods_SLListSwiftComponent_Tests.framework */; };
+		2598C82FF66125D0C1F6A2EC /* libPods-SLListSwiftComponent_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9240407EA8F498A037B502DC /* libPods-SLListSwiftComponent_Example.a */; };
+		3F39D9F34F1CF9E807BECF90 /* libPods-SLListSwiftComponent_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB07E953B71887EE6903AA8 /* libPods-SLListSwiftComponent_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		8240C60623C6D9B400CC27B1 /* LTListComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C60523C6D9B400CC27B1 /* LTListComponentProtocol.swift */; };
-		8240C60823C701F200CC27B1 /* LTListAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C60723C701F200CC27B1 /* LTListAgency.swift */; };
-		8240C60A23C7238C00CC27B1 /* LTListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C60923C7238C00CC27B1 /* LTListBaseClass.swift */; };
+		8240C61323CC43F500CC27B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C61223CC43F500CC27B1 /* ViewController.swift */; };
+		8240C61523CC44B200CC27B1 /* SLTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C61423CC44B200CC27B1 /* SLTestModel.swift */; };
+		8240C61723CC463D00CC27B1 /* SLTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240C61623CC463D00CC27B1 /* SLTestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,6 @@
 		607FACD01AFB9204008FA782 /* SLListSwiftComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLListSwiftComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,13 +43,13 @@
 		6A85C6135F0B7BFF25A2C8D6 /* Pods-SLListSwiftComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Example/Pods-SLListSwiftComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71B2E5C026AED43CFE52FD7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		79DAB14DB914D105012B4E8B /* Pods-SLListSwiftComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Tests/Pods-SLListSwiftComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A37935404790994517024E0 /* Pods_SLListSwiftComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLListSwiftComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B981472B1CE6CF0C3FC009D /* Pods_SLListSwiftComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLListSwiftComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8240C60523C6D9B400CC27B1 /* LTListComponentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTListComponentProtocol.swift; sourceTree = "<group>"; };
-		8240C60723C701F200CC27B1 /* LTListAgency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTListAgency.swift; sourceTree = "<group>"; };
-		8240C60923C7238C00CC27B1 /* LTListBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTListBaseClass.swift; sourceTree = "<group>"; };
+		8240C61223CC43F500CC27B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8240C61423CC44B200CC27B1 /* SLTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTestModel.swift; sourceTree = "<group>"; };
+		8240C61623CC463D00CC27B1 /* SLTestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLTestTableViewCell.swift; sourceTree = "<group>"; };
+		9240407EA8F498A037B502DC /* libPods-SLListSwiftComponent_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SLListSwiftComponent_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C46AF6049E7F40BEF0C2D79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D12937C706FBDD2DE9D7C459 /* SLListSwiftComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SLListSwiftComponent.podspec; path = ../SLListSwiftComponent.podspec; sourceTree = "<group>"; };
+		DDB07E953B71887EE6903AA8 /* libPods-SLListSwiftComponent_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SLListSwiftComponent_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D23B293239E3E976F35779 /* Pods-SLListSwiftComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLListSwiftComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-SLListSwiftComponent_Example/Pods-SLListSwiftComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335E31D9EC282DB54F7A7E13 /* Pods_SLListSwiftComponent_Example.framework in Frameworks */,
+				2598C82FF66125D0C1F6A2EC /* libPods-SLListSwiftComponent_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377CEF0AF5C47AA5CE431215 /* Pods_SLListSwiftComponent_Tests.framework in Frameworks */,
+				3F39D9F34F1CF9E807BECF90 /* libPods-SLListSwiftComponent_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +97,10 @@
 		607FACD21AFB9204008FA782 /* Example for SLListSwiftComponent */ = {
 			isa = PBXGroup;
 			children = (
-				8240C60523C6D9B400CC27B1 /* LTListComponentProtocol.swift */,
-				8240C60923C7238C00CC27B1 /* LTListBaseClass.swift */,
-				8240C60723C701F200CC27B1 /* LTListAgency.swift */,
+				8240C61423CC44B200CC27B1 /* SLTestModel.swift */,
+				8240C61623CC463D00CC27B1 /* SLTestTableViewCell.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8240C61223CC43F500CC27B1 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -162,8 +159,8 @@
 		D359199A1B9954D4451D3C34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A37935404790994517024E0 /* Pods_SLListSwiftComponent_Example.framework */,
-				7B981472B1CE6CF0C3FC009D /* Pods_SLListSwiftComponent_Tests.framework */,
+				9240407EA8F498A037B502DC /* libPods-SLListSwiftComponent_Example.a */,
+				DDB07E953B71887EE6903AA8 /* libPods-SLListSwiftComponent_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,7 +176,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D146D7CFE50D039432D71CE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,7 +194,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				71D36880D2D7E8D0C8A6926C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,42 +289,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		71D36880D2D7E8D0C8A6926C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SLListSwiftComponent_Tests/Pods-SLListSwiftComponent_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLListSwiftComponent_Tests/Pods-SLListSwiftComponent_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D146D7CFE50D039432D71CE5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SLListSwiftComponent_Example/Pods-SLListSwiftComponent_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SLListSwiftComponent/SLListSwiftComponent.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLListSwiftComponent.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLListSwiftComponent_Example/Pods-SLListSwiftComponent_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DF2E0D70E669E05A75079F6C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,11 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8240C60823C701F200CC27B1 /* LTListAgency.swift in Sources */,
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				8240C60A23C7238C00CC27B1 /* LTListBaseClass.swift in Sources */,
+				8240C61323CC43F500CC27B1 /* ViewController.swift in Sources */,
+				8240C61523CC44B200CC27B1 /* SLTestModel.swift in Sources */,
+				8240C61723CC463D00CC27B1 /* SLTestTableViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				8240C60623C6D9B400CC27B1 /* LTListComponentProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

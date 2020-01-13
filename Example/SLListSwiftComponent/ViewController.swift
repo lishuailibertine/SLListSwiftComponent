@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import SLListSwiftComponent
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    lazy var listAssemble: LTListAssemble = {()->LTListAssemble in
+        return (LTListAssemble.createListAssemble(tableView: self.tableView))!
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
-//        UITableView;
+        self.tableView.estimatedRowHeight = 0.1
+        let sectionModel: LTListBaseSectionClass =  LTListBaseSectionClass()
+        let row: SLTestModel = SLTestModel()
+        row.content = "1111111111111111111"
+        row.cellReusable = "SLTestTableViewCell"
+        row.rowHeight = NSNumber.init(value: Float(UITableViewAutomaticDimension))
+        
+        let row1: SLTestModel = SLTestModel()
+        row1.content = "qdqdsdwdwdwdewdewdewdewdewdedewdwedewdewdewdewdwedewdewdewdewdwdwdwdewdwdwdweewdwedewdewdewdewdwdwdwdewdwdwdweewdwedewdewdewdewdwdwdwdewdwdwdweewdwedewdewdewdewdwdwdwdewdwdwdweewdwedewdewdewdewdwdwdwdewdwdwdwe"
+        row1.cellReusable = "SLTestViewTableViewCell"
+        row1.rowHeight = NSNumber.init(value: Float(UITableViewAutomaticDimension))
+        sectionModel.rowArray.add(row)
+        sectionModel.rowArray.add(row1)
+        self.listAssemble.updateListWithModels(dataArray: [sectionModel])
         // Do any additional setup after loading the view, typically from a nib.
     }
 
