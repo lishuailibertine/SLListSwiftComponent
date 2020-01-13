@@ -81,21 +81,30 @@ class LTListViewModel : NSObject,LTListViewModelProtocol{
         
     }
     func createViewWithClass(className: Any,nibName: NSString? ) -> LTListBaseViewClass? {
-        return nil
+        return getNibViewWithClass(className: className, nibName: nibName) as? LTListBaseViewClass
     }
     func getNibViewWithClass(className: Any,nibName: NSString?) -> UIView? {
         if nibName == nil {
             return nil
         }
-        let contentView: UIView? = nil
+        var contentView: UIView? = nil
         let xibBundle: Bundle = Bundle.main
         let nibs: [Any]? = xibBundle.loadNibNamed(nibName == nil ? "\(self)": nibName! as String, owner: self, options: nil)
         nibs?.forEach({ (nib) in
-            if nib == className{
-                
+            if (nib as! AnyClass) === (className as! AnyClass){
+                contentView = nib as? UIView
             }
         })
         return contentView as? LTListBaseViewClass
+    }
+    func getBackView(superView: UIView,className: AnyClass) -> UIView? {
+        var backView: UIView? = nil
+        superview?.subviews.forEach({ (subView) in
+            if subView === className {
+                backView = subView
+            }
+        })
+        return backView
     }
 }
 class LTListBaseCellClass : UITableViewCell,LTListBaseCellProtocol{
