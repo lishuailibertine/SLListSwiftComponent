@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SLListSwiftComponent (0.1.0)
+  - SLListSwiftComponent (0.1.0):
+    - SLListSwiftComponent/SLListSwiftCollectionComponent (= 0.1.0)
+    - SLListSwiftComponent/SLListSwiftTableComponent (= 0.1.0)
+  - SLListSwiftComponent/SLListSwiftCollectionComponent (0.1.0)
+  - SLListSwiftComponent/SLListSwiftTableComponent (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +24,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SLListSwiftComponent: c773c621478a93527e4a2a650eb9f9a2163da20f
+  SLListSwiftComponent: e832977cbf56a158173650fc03f789866d5e226d
 
 PODFILE CHECKSUM: 5b0545a51b7749c29da6aee6c38f468c701a8ff7
 

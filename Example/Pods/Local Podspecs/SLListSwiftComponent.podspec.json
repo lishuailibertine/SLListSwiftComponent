@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SLListSwiftComponent/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "SLListSwiftTableComponent",
+      "source_files": "SLListSwiftComponent/Classes/**/*"
+    },
+    {
+      "name": "SLListSwiftCollectionComponent",
+      "source_files": "SLListSwiftCollectionComponent/Classes/**/*"
+    }
+  ]
 }

@@ -29,9 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SLListSwiftComponent/Classes/**/*'
-  
+  s.subspec 'SLListSwiftTableComponent' do |ss|
+     ss.source_files = 'SLListSwiftComponent/Classes/**/*'
+  end
+  s.subspec 'SLListSwiftCollectionComponent' do |ss|
+     ss.source_files = 'SLListSwiftCollectionComponent/Classes/**/*'
+  end
   # s.resource_bundles = {
   #   'SLListSwiftComponent' => ['SLListSwiftComponent/Assets/*.png']
   # }

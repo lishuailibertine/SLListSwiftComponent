@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079902AB2055A03BAB75E4274B771420 /* SLListSwiftComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5201403730CD3A25F6B9818E37088888 /* SLListSwiftComponent-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BF231DD85753C39424F0F58A879E8294 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA305E8AE2A0531EB3AA3E9958E7E2E5 /* UIApplication+StrictKeyWindow.m */; };
+		1CD2244CA6639132E52CD59F4295F8A8 /* LTListComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A48B36874C429716AD0DFD44C4E63A /* LTListComponentProtocol.swift */; };
+		20D3E35E942F04CE32C1066771F3EDC5 /* LTListAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE32701B005BB568EF4A17F321C2DEA /* LTListAssemble.swift */; };
+		2CE59CF5CC38F75753D0194F13DC3914 /* SLListSwiftComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED27310B76EC2A04385286DCDA7F9E4 /* SLListSwiftComponent-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F9AE0EF70CD8CCC3580674FA5462982 /* Pods-SLListSwiftComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3444E33672B8931BC8E91A476F010788 /* Pods-SLListSwiftComponent_Example-dummy.m */; };
 		33D1F69488F0FE5DBD3A2F15155344D3 /* Pods-SLListSwiftComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADB4CFA9B8EFC810010B9DE382BE4E3 /* Pods-SLListSwiftComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3417808A61CA72ACEA1573048BF3342D /* LTListAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE79D04F404170B18CEF7DEB5C5BA85 /* LTListAgency.swift */; };
 		36D30914C10992B3B6C8D31008B2CF38 /* Pods-SLListSwiftComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CA46BFF4DE68A75853EF8AA501A5B /* Pods-SLListSwiftComponent_Tests-dummy.m */; };
-		47CB43B9C219F886753008D2F3ACBBAF /* SLListSwiftComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6208C8019BF0694CFF585D65614CE0 /* SLListSwiftComponent-dummy.m */; };
 		50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB8800FEBEFE94A390F54FF049C0F04 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D77D9EBB30FD63D72D5303A60061F /* FBSnapshotTestCasePlatform.m */; };
-		5878D092FF5A61054ADD1E8D202D59EC /* LTListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BAE8F65DA6E1BA1352AEF2BCAE87F6 /* LTListBaseClass.swift */; };
 		637A23B7499C79249F4B6450CCE358A8 /* Pods-SLListSwiftComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F098B398FB2EB85ACED917ED13EB422 /* Pods-SLListSwiftComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FAE5D5EA40570A0815DE1603F1FE9BC /* SLListSwiftComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53E994EBB9DB73BC5924B3F8A0F423 /* SLListSwiftComponent-dummy.m */; };
 		77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946BF97354D4762FF89FF62BB2493AAB /* FBSnapshotTestController.m */; };
+		784FB4D19CF19709CD16A846DCD75A02 /* LTListBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08B41E3B18F6C6BAF9DD6162864065 /* LTListBaseClass.swift */; };
+		7F6436E5028FE114B664D4C39502D10F /* LTCollectionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD517C17E13D61A267A09987B375101 /* LTCollectionDataModel.swift */; };
 		87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9ECE87ECC280ED44FEE10A626B490D /* SwiftSupport.swift */; };
 		8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B2869E4C7500F81B855421AD3A428F7B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BCBCDCE9AB1C81BEF4FF139B33C52 /* UIImage+Compare.m */; };
+		A9F59C43094679BFEDFED208D22B0EB5 /* LTCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40780164F61CE7E4DF66589AD6C2F7C /* LTCollectionDataSource.swift */; };
 		AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D10E263DD0E2D7DFDEDB26AF6FE30DA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACFDF26CD9B371F7522CFA0BD5EADD01 /* LTListComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166E263FA03E447E61225A9F66CA6BFE /* LTListComponentProtocol.swift */; };
+		B242A261FCD45C9C335F0879EC832316 /* LTListAgency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF5D604F5E6D7FB7F05A27DF93D5B4 /* LTListAgency.swift */; };
 		B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DF74AEB8FBA3B574B14913B6A0259E1A /* UIImage+Diff.m */; };
 		C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A6B83B99996AB0D345D1F73BBFADC0 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 133B70FDA298B1C75AEA6D9B4DFB9D7C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -33,7 +36,6 @@
 		D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 801441A53595C4296307546E40FB19DF /* FBSnapshotTestCase.m */; };
 		EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B8688C495C7274D9CD6B569947115F5C /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = C69BBB5F7F16D373D86DBDE5AF4590E2 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FE1E308E892BF302E1068D68A6B1CC3E /* LTListAssemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433548AB5CBD4386F7B82A5F4E022DD1 /* LTListAssemble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,68 +63,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07400FDA04FF3F8444166F0DA8A83064 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0973DD3B526E538F733B74641A491E1B /* Pods-SLListSwiftComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLListSwiftComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		133B70FDA298B1C75AEA6D9B4DFB9D7C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		15C62DB79E4F5997AD00B58A1D777027 /* Pods-SLListSwiftComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLListSwiftComponent_Example.modulemap"; sourceTree = "<group>"; };
-		166E263FA03E447E61225A9F66CA6BFE /* LTListComponentProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListComponentProtocol.swift; path = SLListSwiftComponent/Classes/LTListComponentProtocol.swift; sourceTree = "<group>"; };
 		1A3BCBCDCE9AB1C81BEF4FF139B33C52 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		1BB8800FEBEFE94A390F54FF049C0F04 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		24A48B36874C429716AD0DFD44C4E63A /* LTListComponentProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListComponentProtocol.swift; path = SLListSwiftComponent/Classes/LTListComponentProtocol.swift; sourceTree = "<group>"; };
 		25A6B83B99996AB0D345D1F73BBFADC0 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		269C081E4C07EB5A5F4C01A79967CFF2 /* Pods-SLListSwiftComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLListSwiftComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		26BA3B26A6F643E012E880EBED8114EE /* SLListSwiftComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLListSwiftComponent.xcconfig; sourceTree = "<group>"; };
 		26FEEF5750C180B13019BE09D8BE7B4E /* Pods-SLListSwiftComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLListSwiftComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2ADB4CFA9B8EFC810010B9DE382BE4E3 /* Pods-SLListSwiftComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLListSwiftComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2D9CA46BFF4DE68A75853EF8AA501A5B /* Pods-SLListSwiftComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLListSwiftComponent_Tests-dummy.m"; sourceTree = "<group>"; };
 		2F098B398FB2EB85ACED917ED13EB422 /* Pods-SLListSwiftComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLListSwiftComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		3444E33672B8931BC8E91A476F010788 /* Pods-SLListSwiftComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLListSwiftComponent_Example-dummy.m"; sourceTree = "<group>"; };
-		3FE79D04F404170B18CEF7DEB5C5BA85 /* LTListAgency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListAgency.swift; path = SLListSwiftComponent/Classes/LTListAgency.swift; sourceTree = "<group>"; };
-		433548AB5CBD4386F7B82A5F4E022DD1 /* LTListAssemble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListAssemble.swift; path = SLListSwiftComponent/Classes/LTListAssemble.swift; sourceTree = "<group>"; };
 		465570D4218BF349873EB798D3E44272 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		5201403730CD3A25F6B9818E37088888 /* SLListSwiftComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLListSwiftComponent-umbrella.h"; sourceTree = "<group>"; };
-		59BAE8F65DA6E1BA1352AEF2BCAE87F6 /* LTListBaseClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListBaseClass.swift; path = SLListSwiftComponent/Classes/LTListBaseClass.swift; sourceTree = "<group>"; };
+		4ED27310B76EC2A04385286DCDA7F9E4 /* SLListSwiftComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLListSwiftComponent-umbrella.h"; sourceTree = "<group>"; };
+		58D43FD7CC69F1B83D5E39D14D0354F6 /* SLListSwiftComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLListSwiftComponent-prefix.pch"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		77EF06183A752FAB56524E221D0D776F /* libPods-SLListSwiftComponent_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SLListSwiftComponent_Tests.a"; path = "libPods-SLListSwiftComponent_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D10E263DD0E2D7DFDEDB26AF6FE30DA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		801441A53595C4296307546E40FB19DF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		85FE7E96C61873C32FDEB509CB92BD03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8A081D2BF1B8713A0AE8B4B11A5D4EB4 /* Pods-SLListSwiftComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLListSwiftComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C6894C9AEDC1AA8F315BAA4A7E704EC /* Pods-SLListSwiftComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLListSwiftComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		8D9ECE87ECC280ED44FEE10A626B490D /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		9305FE6692D8B2B20FB0D3F320D3C6F5 /* Pods-SLListSwiftComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLListSwiftComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		946BF97354D4762FF89FF62BB2493AAB /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		9AFDEBA0B4A43969FCB8C1FC24103B77 /* SLListSwiftComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SLListSwiftComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A62AF1948EE5E1137E768F5CF6B0BA /* SLListSwiftComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLListSwiftComponent.xcconfig; sourceTree = "<group>"; };
+		9C08B41E3B18F6C6BAF9DD6162864065 /* LTListBaseClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListBaseClass.swift; path = SLListSwiftComponent/Classes/LTListBaseClass.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40780164F61CE7E4DF66589AD6C2F7C /* LTCollectionDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCollectionDataSource.swift; path = SLListSwiftCollectionComponent/Classes/LTCollectionDataSource.swift; sourceTree = "<group>"; };
 		A47F8C13515220EA401C0014A9EF807C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		A48988D4F5B92BE432A5E246D59E66D8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		A79A17A92B6BB3CD04A0E57CB43F8E4E /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AA14712D11A4E59D10F999AB5BD14BAC /* Pods-SLListSwiftComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLListSwiftComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AA305E8AE2A0531EB3AA3E9958E7E2E5 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		AFBC3FAB5EDBE1C955B551629C445C80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AC53E994EBB9DB73BC5924B3F8A0F423 /* SLListSwiftComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLListSwiftComponent-dummy.m"; sourceTree = "<group>"; };
 		B2869E4C7500F81B855421AD3A428F7B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B8688C495C7274D9CD6B569947115F5C /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		BF231DD85753C39424F0F58A879E8294 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		BF3A35D5A71D3C8319104D4183037B98 /* SLListSwiftComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SLListSwiftComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF9F858E32C5634130A2DBA928A40B26 /* libPods-SLListSwiftComponent_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SLListSwiftComponent_Example.a"; path = "libPods-SLListSwiftComponent_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FC055066B96A3AF6E575C7CBC7A4F5 /* Pods-SLListSwiftComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLListSwiftComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C69BBB5F7F16D373D86DBDE5AF4590E2 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		CBDEE21519FD8E8F25920AE127F81723 /* SLListSwiftComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLListSwiftComponent.modulemap; sourceTree = "<group>"; };
+		CEFF5D604F5E6D7FB7F05A27DF93D5B4 /* LTListAgency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListAgency.swift; path = SLListSwiftComponent/Classes/LTListAgency.swift; sourceTree = "<group>"; };
 		D24D77D9EBB30FD63D72D5303A60061F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		DBE32701B005BB568EF4A17F321C2DEA /* LTListAssemble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTListAssemble.swift; path = SLListSwiftComponent/Classes/LTListAssemble.swift; sourceTree = "<group>"; };
 		DF74AEB8FBA3B574B14913B6A0259E1A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E5D50338FCEB63546C8EC92900AF75E1 /* SLListSwiftComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLListSwiftComponent-prefix.pch"; sourceTree = "<group>"; };
 		E68205BA0BE03E12021F3128A765BC2E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		E718A251E2253A91E990A8A262611110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E859C0F55D347E6BD12023FC4260DD60 /* SLListSwiftComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLListSwiftComponent.modulemap; sourceTree = "<group>"; };
-		EB6208C8019BF0694CFF585D65614CE0 /* SLListSwiftComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLListSwiftComponent-dummy.m"; sourceTree = "<group>"; };
+		ECD517C17E13D61A267A09987B375101 /* LTCollectionDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCollectionDataModel.swift; path = SLListSwiftCollectionComponent/Classes/LTCollectionDataModel.swift; sourceTree = "<group>"; };
 		F12DD776567A92B6E8321E3147316C8A /* Pods-SLListSwiftComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLListSwiftComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F753DCDA4EF619E34F692A4396E81BA5 /* libSLListSwiftComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSLListSwiftComponent.a; path = libSLListSwiftComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		34DD7BDA568C841653D703E5A05F18D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,6 +140,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5700E777BC504AFB45016E0A85B370E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -157,49 +161,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		071DAEC36BB9F3499F295875DAB31310 /* Support Files */ = {
+		1910EF4E94298A92C731B634FDD9D6FF /* SLListSwiftCollectionComponent */ = {
 			isa = PBXGroup;
 			children = (
-				E859C0F55D347E6BD12023FC4260DD60 /* SLListSwiftComponent.modulemap */,
-				26BA3B26A6F643E012E880EBED8114EE /* SLListSwiftComponent.xcconfig */,
-				EB6208C8019BF0694CFF585D65614CE0 /* SLListSwiftComponent-dummy.m */,
-				E5D50338FCEB63546C8EC92900AF75E1 /* SLListSwiftComponent-prefix.pch */,
-				5201403730CD3A25F6B9818E37088888 /* SLListSwiftComponent-umbrella.h */,
+				ECD517C17E13D61A267A09987B375101 /* LTCollectionDataModel.swift */,
+				A40780164F61CE7E4DF66589AD6C2F7C /* LTCollectionDataSource.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SLListSwiftComponent";
+			name = SLListSwiftCollectionComponent;
 			sourceTree = "<group>";
 		};
-		19BBC5AE4A4F14BCA97BB5A5536B5913 /* Development Pods */ = {
+		3D998C12AAB0A3CCEE551B3C10C6B6D5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6C72F2C97D9A4E53C105171D72227C3A /* SLListSwiftComponent */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2B6D114D818FDC290867642EA54A72E3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AFBC3FAB5EDBE1C955B551629C445C80 /* LICENSE */,
-				E718A251E2253A91E990A8A262611110 /* README.md */,
-				9AFDEBA0B4A43969FCB8C1FC24103B77 /* SLListSwiftComponent.podspec */,
+				85FE7E96C61873C32FDEB509CB92BD03 /* LICENSE */,
+				07400FDA04FF3F8444166F0DA8A83064 /* README.md */,
+				BF3A35D5A71D3C8319104D4183037B98 /* SLListSwiftComponent.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		6C72F2C97D9A4E53C105171D72227C3A /* SLListSwiftComponent */ = {
-			isa = PBXGroup;
-			children = (
-				3FE79D04F404170B18CEF7DEB5C5BA85 /* LTListAgency.swift */,
-				433548AB5CBD4386F7B82A5F4E022DD1 /* LTListAssemble.swift */,
-				59BAE8F65DA6E1BA1352AEF2BCAE87F6 /* LTListBaseClass.swift */,
-				166E263FA03E447E61225A9F66CA6BFE /* LTListComponentProtocol.swift */,
-				2B6D114D818FDC290867642EA54A72E3 /* Pod */,
-				071DAEC36BB9F3499F295875DAB31310 /* Support Files */,
-			);
-			name = SLListSwiftComponent;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		838A5D76F3D8BBB5712240814B94C529 /* Targets Support Files */ = {
@@ -224,6 +202,31 @@
 			);
 			name = "Pods-SLListSwiftComponent_Example";
 			path = "Target Support Files/Pods-SLListSwiftComponent_Example";
+			sourceTree = "<group>";
+		};
+		A396FD0418C6673CEF7C869536E005E2 /* SLListSwiftComponent */ = {
+			isa = PBXGroup;
+			children = (
+				3D998C12AAB0A3CCEE551B3C10C6B6D5 /* Pod */,
+				1910EF4E94298A92C731B634FDD9D6FF /* SLListSwiftCollectionComponent */,
+				F9B1C276C53102E11774F46CA654A727 /* SLListSwiftTableComponent */,
+				B3B0F1FB977110F28C13C850678D8794 /* Support Files */,
+			);
+			name = SLListSwiftComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B3B0F1FB977110F28C13C850678D8794 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBDEE21519FD8E8F25920AE127F81723 /* SLListSwiftComponent.modulemap */,
+				96A62AF1948EE5E1137E768F5CF6B0BA /* SLListSwiftComponent.xcconfig */,
+				AC53E994EBB9DB73BC5924B3F8A0F423 /* SLListSwiftComponent-dummy.m */,
+				58D43FD7CC69F1B83D5E39D14D0354F6 /* SLListSwiftComponent-prefix.pch */,
+				4ED27310B76EC2A04385286DCDA7F9E4 /* SLListSwiftComponent-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLListSwiftComponent";
 			sourceTree = "<group>";
 		};
 		C81A9D7A2662C6529C83A937F7F2020A /* SwiftSupport */ = {
@@ -253,7 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				19BBC5AE4A4F14BCA97BB5A5536B5913 /* Development Pods */,
+				E8028996F73F36A9BD458097B76EFA69 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				022EB85462444AB316D93A90D2921962 /* Products */,
@@ -289,6 +292,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E8028996F73F36A9BD458097B76EFA69 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A396FD0418C6673CEF7C869536E005E2 /* SLListSwiftComponent */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,14 +332,25 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		F9B1C276C53102E11774F46CA654A727 /* SLListSwiftTableComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF5D604F5E6D7FB7F05A27DF93D5B4 /* LTListAgency.swift */,
+				DBE32701B005BB568EF4A17F321C2DEA /* LTListAssemble.swift */,
+				9C08B41E3B18F6C6BAF9DD6162864065 /* LTListBaseClass.swift */,
+				24A48B36874C429716AD0DFD44C4E63A /* LTListComponentProtocol.swift */,
+			);
+			name = SLListSwiftTableComponent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7BB609E917221AFA317F4C134841E83E /* Headers */ = {
+		1BDA962C797BF4DDE8B9BA42C6CCFA79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079902AB2055A03BAB75E4274B771420 /* SLListSwiftComponent-umbrella.h in Headers */,
+				2CE59CF5CC38F75753D0194F13DC3914 /* SLListSwiftComponent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,12 +426,12 @@
 		};
 		D1348E2775BC06B2683BF5B811FF0057 /* SLListSwiftComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4A36FB16A66736F818CAB7593A910FE /* Build configuration list for PBXNativeTarget "SLListSwiftComponent" */;
+			buildConfigurationList = FB575BCDF5CBF35CF73725EBF3593186 /* Build configuration list for PBXNativeTarget "SLListSwiftComponent" */;
 			buildPhases = (
-				7BB609E917221AFA317F4C134841E83E /* Headers */,
-				1EAFB6BB99769771B938FC4324AA61D6 /* Sources */,
-				34DD7BDA568C841653D703E5A05F18D6 /* Frameworks */,
-				56622352520379A3BF275A50388854AB /* Copy generated compatibility header */,
+				1BDA962C797BF4DDE8B9BA42C6CCFA79 /* Headers */,
+				309921BB36BBE889C7A56C8FE43144DE /* Sources */,
+				C5700E777BC504AFB45016E0A85B370E /* Frameworks */,
+				4F0AFC3B4FB0E316715CD7C62CAC5085 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -469,7 +491,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		56622352520379A3BF275A50388854AB /* Copy generated compatibility header */ = {
+		4F0AFC3B4FB0E316715CD7C62CAC5085 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,15 +542,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1EAFB6BB99769771B938FC4324AA61D6 /* Sources */ = {
+		309921BB36BBE889C7A56C8FE43144DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3417808A61CA72ACEA1573048BF3342D /* LTListAgency.swift in Sources */,
-				FE1E308E892BF302E1068D68A6B1CC3E /* LTListAssemble.swift in Sources */,
-				5878D092FF5A61054ADD1E8D202D59EC /* LTListBaseClass.swift in Sources */,
-				ACFDF26CD9B371F7522CFA0BD5EADD01 /* LTListComponentProtocol.swift in Sources */,
-				47CB43B9C219F886753008D2F3ACBBAF /* SLListSwiftComponent-dummy.m in Sources */,
+				7F6436E5028FE114B664D4C39502D10F /* LTCollectionDataModel.swift in Sources */,
+				A9F59C43094679BFEDFED208D22B0EB5 /* LTCollectionDataSource.swift in Sources */,
+				B242A261FCD45C9C335F0879EC832316 /* LTListAgency.swift in Sources */,
+				20D3E35E942F04CE32C1066771F3EDC5 /* LTListAssemble.swift in Sources */,
+				784FB4D19CF19709CD16A846DCD75A02 /* LTListBaseClass.swift in Sources */,
+				1CD2244CA6639132E52CD59F4295F8A8 /* LTListComponentProtocol.swift in Sources */,
+				6FAE5D5EA40570A0815DE1603F1FE9BC /* SLListSwiftComponent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,9 +638,9 @@
 			};
 			name = Release;
 		};
-		599530E5369D7A364F9B0731F725D2FD /* Release */ = {
+		7E269347BDF241D0F2106C9227F7BF95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26BA3B26A6F643E012E880EBED8114EE /* SLListSwiftComponent.xcconfig */;
+			baseConfigurationReference = 96A62AF1948EE5E1137E768F5CF6B0BA /* SLListSwiftComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -636,9 +660,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		83C6B13B45EC601024463331A2C1A2A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -665,9 +688,9 @@
 			};
 			name = Debug;
 		};
-		8B4E5D941ECA400D0F14A5DE1A8A49A2 /* Debug */ = {
+		933AF664CF563ADAA52A03213F9A3129 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26BA3B26A6F643E012E880EBED8114EE /* SLListSwiftComponent.xcconfig */;
+			baseConfigurationReference = 96A62AF1948EE5E1137E768F5CF6B0BA /* SLListSwiftComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -687,8 +710,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		9F8E45ADA5B47A6C6029CDB9F5137F94 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -934,20 +958,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4A36FB16A66736F818CAB7593A910FE /* Build configuration list for PBXNativeTarget "SLListSwiftComponent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B4E5D941ECA400D0F14A5DE1A8A49A2 /* Debug */,
-				599530E5369D7A364F9B0731F725D2FD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CAE51544DECBC6E74DC446E2479B8EA0 /* Build configuration list for PBXNativeTarget "Pods-SLListSwiftComponent_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E054BD028B1AC93BACF858E35D7070EC /* Debug */,
 				EF13DADFAC2C2A2B0AAD0EB86587927B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB575BCDF5CBF35CF73725EBF3593186 /* Build configuration list for PBXNativeTarget "SLListSwiftComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E269347BDF241D0F2106C9227F7BF95 /* Debug */,
+				933AF664CF563ADAA52A03213F9A3129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
