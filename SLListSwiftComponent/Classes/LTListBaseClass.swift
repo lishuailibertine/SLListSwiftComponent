@@ -12,6 +12,7 @@ import UIKit
 open class LTListBaseRowClass : NSObject,LTListRowProtocol {
     open var cellReusable: NSString?
     open var rowHeight: NSNumber?
+    open var didSelectRowAtIndexPath: ((UITableView, NSIndexPath, LTListRowProtocol?) -> Void)?
 }
 open class LTListBaseSectionClass : NSObject,LTListSectionProtocol {
     open var sectionHeaderView: UIView?

@@ -13,6 +13,7 @@ import UIKit
 @objc public protocol LTListRowProtocol :class{
     var cellReusable: NSString?{ set get}
     var rowHeight: NSNumber?{ set get}
+    var didSelectRowAtIndexPath: ((_ tableView: UITableView,_ indexPath: NSIndexPath,_ rowData: LTListRowProtocol?)->Void)?{ set get}
 }
 
 @objc public protocol LTListSectionProtocol :class{

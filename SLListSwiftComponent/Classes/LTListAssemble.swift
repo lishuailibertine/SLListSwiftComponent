@@ -66,7 +66,9 @@ open class LTListAssemble: NSObject {
         footerView?.fillData?(data: sectionData)
     }
     open func didSelectRow(tableView: UITableView,indexPath: NSIndexPath,rowData: LTListRowProtocol?) -> Void {
-        
+        if ((rowData?.didSelectRowAtIndexPath) != nil) {
+            rowData?.didSelectRowAtIndexPath!(tableView,indexPath as NSIndexPath,rowData)
+        }
     }
     open func scrollViewWillBeginDragging(scrollView: UIScrollView) -> Void {
         
